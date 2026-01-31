@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h2>История ЭВМ</h2>
-        <p>
-          Первые <span> электронные вычислительные машины </span> появились в середине XX века.
-        </p>
-    </div>
+    <header>
+        <h1>История развития ЭВМ</h1>
+    </header>
+    <nav>
+        <a href="#gen2">Поколения</a>
+        <a href="media.html">Медиа</a>
+        <a href="fotms.html">Формы</a>
+        <a href="vector.html" target="_blank">SVG</a>
+    </nav>
+    <main>
+        <section id="gen1">
+            <h2>Первое поколение ЭВМ<h2>
+            <p>Пример якорной ссылки и текстового блока</p>
+            <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">ЭВМ первого поколения занимали целые помещения</blockquote>
+            <cite></cite>
+            <br /><br />
+            <a href="mailto:student@mial.ru">Написать письмо</a>
+            <a href="tel:+79990000000">Позвонть</a>
+            <button>Кнопка</button>
+        </section>
 
-    <div>
-        <p style=" background-color: green;">
-            Тег <span style="background-color: yellow;">span</span>span> используется для выделения части текста внутри строки.
-        </p>
-    </div>
-    <p><b>ЭВМ</b>— это электронная вычислительная машина.</p>
-    <p><b>Важно:</b> первые ЭВМ занимали целые помещения.</p>
-    <p><i>Курсивный текст и логически выделенный текст.</i></p>
- <p><s>Устаревшая информация</s></p>
- <p><u>Подчёркнутый текст</u></p>
- <p>Формула воды: H<sub>2</sub>O</p>
- <p>Степень числа: 2<sup>3</sup> = 8</p>
- <p><small>Мелкий текст для примечаний</small></p>
- <p><mark>Выделенный важный фрагмент</mark></p>
- <p>Первая строка</p>
- <p>Вторая строка</p>
- <p>Пример кода:</p>
- <hr> 
-<code>
- &lt;h1&gt;История ЭВМ&lt;/h1&gt;
- </code>
+        <aside>
+        <h3>Фото</h3>
+        <img scr="img.computer_generation_1.jpg"
+        alt="1 поколение ЭВМ" height="150"/>
+        <section id="gen2"><section>
+        </aside>
+
+        <section id="gen2">
+            <h2>Второе поколение ЭВМ</h2>
+            <blockquote cite="https://ru.wikipedia.org/wiki/ЭВМ">
+                «Во втором поколении ЭВМ появились ОС.»
+            </blockquote>
+            <cite>Источник: Википедия</cite>
+            <p>Пример якорной ссылки и текстового блока. Во втором поколении ЭВМ появились ОС.</p>
+            <a href="mailto:example@mail.com">Написать письмо</a>
+            <a href="tel:+88005553535">Позвонить</a>
+        </section>
+        <aside>
+            <img src="img/computer_generation_2.jpg" alt="Второе поколение ЭВМ" width="300">
+        </aside>
+    </main>
+    <footer>
+        <p>Лабораторная работа №6 · HTML + CSS</p>
+        <a href="practice.html">Практика HTML</a>
+    </footer>
 </body>
 </html>
-
